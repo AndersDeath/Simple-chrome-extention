@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Very simple extention</title>
+            <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        </head>
+        <style>
+            *{
+                margin: 0 auto;
+                padding: 0;
+            }
+            ul {
+                width:150px;
+                display: block;
+            }
+            li {
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+                text-align: center;
+                display: block;
+                font-size: 18px;
+                color: #000;
+            }
+            a:hover{
+                background: #ddd;
+            }
+            li:not(:last-child)
+            {
+                border: 1px dotted #000;
+            }
+        </style>
+	<body>
+		<ul>
+		    <li><a href="http://yandex.ru" target="_blank">Яндекс</a></li>
+		</ul>
+	</body>
+</html>
